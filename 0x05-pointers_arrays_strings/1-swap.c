@@ -1,19 +1,20 @@
 #include "main.h"
 /**
-  * swap_int-function name
-  * @n: first parameter
-  * @n: second parameter
+  * swap_int-this function swap two int
+  *
+  * @a: first pointer
+  * @b: second pointer
+  *
+  * Return(0)
   */
 
 void swap_int(int *a, int *b)
 {
-int c;
-c = *a;
-*a = *b;
-*b = c;
-
-
-
+	int empty;
+	int *c = &empty;
+	*c = *c;
+	*a = *b;
+	*b = *a;
 }
 
 
